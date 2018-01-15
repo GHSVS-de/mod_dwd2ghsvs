@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>mod_dwd2ghsvs</name>
+	<author>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</author>
+	<creationDate>2018-01-16</creationDate>
+	<copyright>Copyright (C) 2018, G@HService Berlin Neukölln, Volkmar Volli Schlothauer. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.ghsvs.de</authorUrl>
+	<version>2018.01.16</version>
+	<description>Webmodul Warnungen des DWD für Joomla. www.dwd.de/DE/leistungen/webmodul_warnungen/webmodul_warnungen.html</description>
+	<files>
+		<filename module="mod_dwd2ghsvs">mod_dwd2ghsvs.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>mod_dwd2ghsvs.xml</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+ <media folder="media" destination="mod_dwd2ghsvs">
+  <folder>css</folder>
+  <folder>js</folder>
+ </media>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
