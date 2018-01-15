@@ -2,3 +2,5 @@
 DEMO-MODUL Webmodul Warnungen des DWD für Joomla
 
 joomlaportal.de/joomla-3-x-allgemeine-fragen/330286-dwd-warnmodul-2-joomla-einbinden.html
+
+https://www.dwd.de/DE/leistungen/webmodul_warnungen/webmodul_warnungen.html
