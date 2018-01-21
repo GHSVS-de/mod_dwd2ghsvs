@@ -2,7 +2,7 @@
 <extension type="module" version="3.1" client="site" method="upgrade">
 	<name>mod_dwd2ghsvs</name>
 	<author>G@HService Berlin Neukölln, Volkmar Volli Schlothauer</author>
-	<creationDate>2018-01-16</creationDate>
+	<creationDate>2018-01-21</creationDate>
 	<copyright>Copyright (C) 2018, G@HService Berlin Neukölln, Volkmar Volli Schlothauer. All rights reserved.</copyright>
 	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
 	<authorEmail></authorEmail>
