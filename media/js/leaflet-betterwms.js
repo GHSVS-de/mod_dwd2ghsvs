@@ -19,7 +19,7 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
     // Make an AJAX request to the server and hope for the best
     var url = this.getFeatureInfoUrl(evt.latlng),
         showResults = L.Util.bind(this.showGetFeatureInfo, this);
-    $.ajax({
+    jQuery.ajax({
       url: url,
       success: function (data, status, xhr) {
         var err = typeof data === 'string' ? null : data;
@@ -36,7 +36,7 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
     // Make an AJAX request to the server and hope for the best
     var url = this.getFeatureInfoUrl(evt.latlng),
         showResultsJson = L.Util.bind(this.showGetFeatureInfoJson, this);
-    $.ajax({
+    jQuery.ajax({
       url: url,
       dataType: 'jsonp',
       jsonpCallback: 'parseResponse',
@@ -94,7 +94,7 @@ L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({
   showGetFeatureInfoJson: function (latlng, data) {
     if ( data.features[0] == null ) { return 0 };
     var content="<h2>Amtliche Warnung</h2>";
-    $.each(data.features, function (i, item) {
+    jQuery.each(data.features, function (i, item) {
             var o = new Date(item.properties.ONSET);
             var e = new Date(item.properties.EXPIRES);
             onset = ('0' + o.getDate()).slice(-2) + '.' + ('0' + (o.getMonth()+1)).slice(-2) + ". - " + ('0' + (o.getHours())).slice(-2) + ":" + ('0' + (o.getMinutes())).slice(-2) + " Uhr";
