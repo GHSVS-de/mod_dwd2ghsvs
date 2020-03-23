@@ -8,7 +8,8 @@ https://www.dwd.de/DE/leistungen/webmodul_warnungen/webmodul_warnungen.html
 Das Modul erleichtert lediglich die Integration aller nötigen Original-Basisdateien und Scripte in Joomla. Einstellungen können im Backend NICHT gemacht werden.
 
 ## Einrichten
-- Modul Installieren
+- Modul oben unter dem Knopf "Clone or Download" als ZIP-Datei herunterladen
+- ZIP-Datei in Joomla installieren
 - Modul "mod_dwd2ghsvs" einrichten (Position, Titel).
 - Bei Anzeige des Moduls im Frontend solltest du die Wetterkarte sehen wie auf https://www.dwd.de/DWD/warnungen/warnmodul/warnmod_index.html
 
